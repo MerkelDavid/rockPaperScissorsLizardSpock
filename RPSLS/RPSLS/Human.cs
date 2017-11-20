@@ -49,10 +49,10 @@ namespace RPSLS
                 case "scissors":
                     return 2;
                     break;
-                case "lizard":
+                case "spock":
                     return 3;
                     break;
-                case "spock":
+                case "lizard":
                     return 4;
                     break;
 

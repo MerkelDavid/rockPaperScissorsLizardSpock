@@ -56,10 +56,10 @@ namespace RPSLS
                     return "scissors";
                     break;
                 case 3:
-                    return "lizard";
+                    return "spock";
                     break;
                 case 4:
-                    return "spock";
+                    return "lizard";
                     break;
             }
             return "";

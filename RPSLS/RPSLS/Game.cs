@@ -98,7 +98,7 @@ namespace RPSLS
             while (!isWinner(player1, player2))
             {
                 GetPlayerMove(player1);
-                player2.getMove();
+                player2.generateMove();
 
                 displayChoices(player1, player2);
 

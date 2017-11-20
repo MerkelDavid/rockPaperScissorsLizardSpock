@@ -15,9 +15,10 @@ namespace RPSLS
             name = "Al Ingram";
         }
 
-        public override int getMove()
+
+        public void generateMove()
         {
-            return randomSeed.Next(0, 5);
+            move = randomSeed.Next(0, 5);
 
         }
 
